@@ -1,7 +1,7 @@
 class Rules extends Component {
   render () {
     return (
-    <div></div>
+    <div>these is the rules</div>
   )
   }
 
