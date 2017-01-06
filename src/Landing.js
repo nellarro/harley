@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import './Landing.css';
+import './Landing.css'
+import { Link } from 'react-router'
 
 class Landing extends Component {
   render() {
@@ -25,9 +26,11 @@ class Landing extends Component {
                 </label>
               </div>
               <div className="submit">
-                <label>
-                  <input type="submit" value="Submit" />
-                </label>
+                <Link to='/rules'>
+                  <label>
+                    <input type="submit" value="Submit" />
+                  </label>
+                </Link>
               </div>
             </form>
           </div>
